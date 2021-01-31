@@ -38,15 +38,3 @@ from sklearn.metrics import roc_auc_score
  - создаем и обучаем на обучающей выборке пять регресионных моделей (LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, LGBMClassifier, CatBoostClassifier), определяем лучшую по метрике AUC-ROC.
 ### Финальное тестирование
  - тестируем модель на тестовой выборке, выводы
- 
- <div class="alert alert-block alert-success">
-<b>Успех:</b> Если все сделано отлично
-</div>
-
-<div class="alert alert-block alert-info">
-<b>Совет: </b> Если можно немного улучшить
-</div>
-
-<div class="alert alert-block alert-danger">
-<b>Ошибка:</b> Если требуются исправления. Работа не может быть принята с красными комментариями.
-</div>
