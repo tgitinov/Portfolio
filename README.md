@@ -5,4 +5,5 @@
 | Название проекта | Описание | Используемые библиотеки |
 | :-------------------- | :--------------------- |:---------------------------|
 | [Анализ фотографий (CV)](foto_analysis) | Разработка системы компьютерного зрения для обработки фотографий покупателей в сетевом супермаркете, с целью определения их возраста | *pandas tensorflow.keras PIL matplotlib.pyplot numpy* |
-| [Прогнозирование оттока клиентов](predicting_clients_exited) | Построение прототипа модели машинного обучения для предсказания оттока клиентов оператора связи| *pandas matplotlib.pyplot numpy sklearn LogisticRegression DecisionTreeClassifier RandomForestClassifier lightgbm catboost* |
+| [Прогнозирование оттока клиентов](predicting_clients_exited) | Построение прототипа модели машинного обучения для предсказания оттока клиентов оператора связи | *pandas matplotlib.pyplot numpy sklearn LogisticRegression DecisionTreeClassifier RandomForestClassifier lightgbm catboost* |
+| [Машинное обучение в бизнесе](ML_in_business) | Построение модели машинного обучения, которая поможет определить регион, где добыча принесёт наибольшую прибыль. Анализ возможной прибыли и рисков техникой Bootstrap | *pandas numpy sklearn LinearRegression scipy |
