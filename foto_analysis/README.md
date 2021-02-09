@@ -9,6 +9,7 @@
 
 ## Используемые библиотеки
 
+Стэк: Python
 ```python
 import pandas as pd
 from PIL import Image
