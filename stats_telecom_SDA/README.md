@@ -2,7 +2,7 @@
 
 Коммерческий департамент федерального оператора сотовой связи хочет скорректировать рекламный бюджет, чтобы понять какой тариф приносит больше прибыли. Из данных имеется небольшая выборка клиентов с базовой информацией: тариф, количество звонков, сообщений и пр.
   
-*<h3 style="color:green;">Статус: завершен</h3>*
+*Статус: завершен*
 
 ## Цель
 
@@ -13,29 +13,31 @@
 Стэк: Python
 ```python
 import pandas as pd
-from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
-import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.layers import Conv2D, Flatten, Dense, AveragePooling2D, GlobalAveragePooling2D
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.applications.resnet import ResNet50
+from scipy import stats as st
 ```
 
 ## Этапы проекта
 
-### Исследовательский анализ данных
- - анализ дата сета и целевого признака
+### Изучаем данные
+ - анализ дата сета, проверка на пустоты и дубликаты
 
-### Обучение модели
- - создание и обучение свёрточной нейронной сети с основой от ResNet50
+### Подготовка данных
+ - обработка данных для последующих расчетов, вводим новые признаки
  
-### Анализ модели
- - разбор модели
+### Расчет помесячной выручки с каждого клиента
+ - считаем выручку с каждой услуги, с доп. услуг, общий расчет
+ 
+### Анализируем данные
+ - считаем как в среднем пользуются услугами, смотрим распределение данных
+ 
+### Проверяем гипотезы
+ - формируем нулевую гипотезу, проверка
+
+### Общий вывод
+ - выводы
  
 ## Результат
 
-Проведен анализ.
+Проведен статистический анализ данных, была дана рекомендация по маркетинговой программе.
